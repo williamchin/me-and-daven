@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+    <item
+        android:id="@+id/startTrack10sec"
+        android:orderInCategory="100"
+        android:title="Start Tracking(Dev)"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/startTrack"
+        android:orderInCategory="100"
+        android:title="Start Tracking"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/stopTrack"
+        android:orderInCategory="100"
+        android:title="Stop Tracking"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/checkSteps"
+        android:orderInCategory="100"
+        android:title="Check Steps"
+        app:showAsAction="never"/>
+
+</menu>
